@@ -1,0 +1,44 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual Environment
+env/
+venv/
+ENV/
+.env
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data Files
+*.csv
+*.log
+*.xlsx
+*.json
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files
+*.cfg
+*.ini
+*.secret
+
+# Ignore AWS credentials if stored in a file
+credentials
+
+# Ignore local configuration files
+local_settings.py
+
+# Ignore any other sensitive files
+*.pem
